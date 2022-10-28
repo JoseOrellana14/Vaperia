@@ -1,0 +1,68 @@
+body {
+    font-family: 'Quicksand', sans-serif'';
+    margin: 0;
+    background-color: rgba(0,0,0,0.9);
+}
+.inactive {
+    display: none;
+}
+
+/* Warning Container */
+#Age-Checker {
+    padding: 0 24px;
+}
+.Warning-Container {
+    width: 360px;
+    margin: auto;
+    text-align: center;
+    background-color: #FFF;
+}
+.Warning-Container img {
+    width: 100%;
+    object-fit: cover;
+}
+.Warning-Container h2 {
+    font-weight: bold;
+    margin: 0 0 12px 0;
+    padding-bottom: 12px;
+    font-size: 36px;
+    /*color: #7c7c7c;*/
+    color: #282828
+}
+.Warning-Container p {
+    margin: 8px 0;
+    color: #7c7c7c;
+    font-size: 20px;
+}
+.Checker-Buttons {
+    font-weight: bold;
+    padding: 0.8em 1em;
+    display: block;
+}
+.Checker-Buttons :hover {
+    cursor: pointer;
+}
+.Checker-Buttons .Si-Mayor {
+    width: 120px;
+    background-color: #f4c61d;
+    margin-left: 0;
+    margin-right: 1%;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: 1px solid #f4c61d;
+    border-radius: 12px;
+    font-size: 16px;
+}
+.Checker-Buttons .No-Menor {
+    width: 80px;
+    background-color: #0a0400;
+    margin-left: 0;
+    margin-right: 1%;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: 1px solid #0a0400;
+    border-radius: 12px;
+    font-size: 16px;
+}
